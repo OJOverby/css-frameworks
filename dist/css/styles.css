@@ -1,0 +1,20 @@
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+.hidden {
+  width: 100%;
+  display: none;
+  background-color: white;
+}
+
+.hover-element:hover .hidden {
+  display: block;
+  position: absolute;
+}
+
+.bg-lightblue {
+  background-color: rgb(160, 203, 240);
+}
+
+/*# sourceMappingURL=styles.css.map */

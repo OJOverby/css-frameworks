@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictroid</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <h1><i class="bi bi-camera"></i>Pictroid</h1>
+    <h2>Discover the world of photography</h2>
+    <div class="background-container">
+    <div class="row">
+        <div class="col-6"><img src="/images/alif-ngoylung-jg-6ARMiaPM-unsplash.jpg" class="img-fluid border-fade" alt=""></div>
+        <div class="col-6">
+            <form class="login-form" id="loginForm" action="/feed/index.html">
+                <h1>Log in</h1>
+                <input type="email" id="email" class="form-control" placeholder="Email" required>
+                <label for="email">E-mail</label>
+                <input type="password" id="password" class="form-control" placeholder="Password" required minlength="8">
+                <button class="btn btn-primary" type="submit">Login</button>
+                <div class="btn btn-info mt-2">Register account</div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

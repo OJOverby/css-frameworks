@@ -1,0 +1,9 @@
+.hidden {
+    width: 100%;
+    display: none;
+    background-color: white;
+}
+.hover-element:hover .hidden  {
+    display: block;
+    position: absolute;
+}
