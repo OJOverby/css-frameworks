@@ -18,6 +18,11 @@
   background-color: rgb(160, 203, 240);
 }
 
+.profile-icon {
+  height: 35px;
+  width: 35px;
+}
+
 .background-container {
   background-image: url("../../images/alif-ngoylung-jg-6ARMiaPM-unsplash.jpg");
   height: 100vh;
